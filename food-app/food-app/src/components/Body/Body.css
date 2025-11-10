@@ -1,0 +1,28 @@
+/* Body.css */
+
+.body {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.restaurant-item {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: box-shadow 0.3s;
+}
+
+.restaurant-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
